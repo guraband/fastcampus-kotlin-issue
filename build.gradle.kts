@@ -8,12 +8,12 @@ plugins {
     kotlin("plugin.jpa") version "1.7.22"
 }
 
-group = "com.fastcampus"
+group = "fastcampus"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
 allprojects {
-    group = "com.fastcampus.issue"
+    group = "fastcampus.issue"
     version = "0.0.1-SNAPSHOT"
 
     repositories {
