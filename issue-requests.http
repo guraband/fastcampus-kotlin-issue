@@ -1,11 +1,14 @@
-###
+### 등록
 POST http://localhost:8080/api/v1/issues
 Content-Type: application/json
 
 {
-  "summary": "테스트1",
-  "description": "본문1",
-  "type": "BUG",
+  "summary": "테스트2",
+  "description": "본문2",
+  "type": "TASK",
   "priority": "HIGH",
   "status": "TODO"
 }
+
+### 조회
+GET http://localhost:8080/api/v1/issues?status=TODO
