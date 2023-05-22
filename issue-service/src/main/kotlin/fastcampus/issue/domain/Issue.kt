@@ -13,7 +13,7 @@ class Issue(
     val id: Long? = null,
 
     @Column
-    val userId: Long,
+    var userId: Long,
 
     @Column
     var summary: String,
