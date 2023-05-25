@@ -29,3 +29,5 @@
         - 댓글 삭제 구현
         - FK까지 삭제하기 위해 issue를 조회 후 하위에 속한 comments에서 해당 comment를 삭제하는 방식으로 처리
         - h2 database console 설정 추가
+- 2023.05.25
+    - Part6.Ch01.01. 비동기-논블로킹 프로그래밍 학습 완료
